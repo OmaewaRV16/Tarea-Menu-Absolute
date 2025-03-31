@@ -1,0 +1,120 @@
+@media screen and (max-width: 480px) {
+    .header {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .info-contacto {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ubicacion, .telefono {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .ubicacion, .telefono p {
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .ubicacion i, .telefono i {
+        margin-bottom: 10px;
+    }
+
+    .hero-contenido {
+        display: block !important;
+    }
+
+    .hamburguesa {
+        display: block !important;
+    }
+
+    .hamburguesa i {
+        color: #f9b707 !important;
+    }
+
+    #icono-menu {
+        display: flex;
+    }
+    
+    #menu {
+        justify-content: start;
+    }
+
+    nav ul {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        gap: 15px !important;
+        top: 0;
+        left: -100%;
+        z-index: 10;
+        background-color: #272727;
+        width: 70%;
+        height: 100%;
+        transition: left 0.5s ease;
+        padding: 40px;
+    }
+
+    nav ul.mostrar-menu {
+        left: 0;
+    }
+
+    nav ul li {
+        padding: 10px 0px;
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+        color: white;
+    }
+
+    nav a:hover {
+        color: white !important;
+    }
+
+    .cerrar {
+        display: none;
+        position: absolute;
+        top: 15px;
+        left: 240px;
+        font-size: 30px;
+        z-index: 11;
+    }
+
+    .lupa {
+        font-size: 30px;
+        position: absolute;
+        display: flex;
+        top: 240px;
+        left: 350px;
+        z-index: 1;
+    }
+
+    .texto-grande h1 {
+        font-size: 40px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .texto-grande a {
+        color: white;
+        background-color: #f9b707;
+    }
+
+    .texto-grande a:hover {
+        color: white !important;
+        background-color: #f9b707 !important;
+    }
+
+    .mostrar-cerrar {
+        color: #f9b707;
+        display: block !important;
+    }
+}

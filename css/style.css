@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+header {
+    color: white;
+    padding: 20px;
+    background-color: #272727;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ancho {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.info-contacto {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.ubicacion, .telefono {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color-amarillo {
+    color: #f9b707;
+}
+
+.hero {
+    margin: auto;
+    background: url(../imagenes/slide-1.jpg) no-repeat center center;
+    background-size: cover;
+    max-width: 100;
+    min-height: 680px;
+}
+
+.hero-contenido {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+.hamburguesa {
+    display: none;
+    padding: 5px;
+    font-size: 35px;
+    color: #f9b707;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav a {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #f9b707;
+}
+
+.cerrar {
+    display: none;
+}
+
+.blanco{
+    color: white;
+}
+
+.texto-grande {
+    padding: 30px;
+    margin: 180px auto;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.texto-grande h1 {
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.texto-grande h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+.texto-grande a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: white;
+    background-color: #f9b707;
+}
+
+.texto-grande a:hover {
+    color: #f9b707;
+    background-color: white;
+    box-shadow: inset;
+}
