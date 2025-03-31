@@ -84,7 +84,7 @@
         display: none;
         position: absolute;
         top: 15px;
-        left: 240px;
+        left: 220px;
         font-size: 30px;
         z-index: 11;
     }
@@ -93,11 +93,14 @@
         font-size: 30px;
         position: absolute;
         display: flex;
-        top: 240px;
-        left: 350px;
+        top: 264px;
+        left: 340px;
         z-index: 1;
     }
 
+    .texto-grande {
+        margin: 100px auto !important;
+    }
     .texto-grande h1 {
         font-size: 40px !important;
         margin-bottom: 10px !important;
