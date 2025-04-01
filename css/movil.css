@@ -50,17 +50,19 @@
         display: flex !important;
         flex-direction: column;
         justify-content: flex-start;
-        position: absolute;
+        position: fixed; /* Fijar la posición */
         gap: 15px !important;
         top: 0;
         left: -100%;
         z-index: 10;
         background-color: #272727;
         width: 70%;
-        height: 120%;
+        height: 100vh; /* Asegurar que cubra toda la pantalla */
         transition: left 0.5s ease;
         padding: 40px;
+        overflow-y: auto; /* Permitir scroll dentro del nav si el contenido es grande */
     }
+    
 
     nav ul.mostrar-menu {
         left: 0;
@@ -82,7 +84,7 @@
 
     .cerrar {
         display: none;
-        position: absolute;
+        position: fixed;
         top: 15px;
         left: 220px;
         font-size: 30px;
